@@ -43,4 +43,9 @@ public class ControleRemotoTest {
         ControleRemoto c = new ControleRemoto();
         assertEquals("virar para direita", c.virarDireita());
     }
+    @Test
+    public void testSeRoboSabeVirarAEsquerda() {
+        ControleRemoto c = new ControleRemoto();
+        assertEquals("virar para esquerda", c.virarEsquerda());
+    }
 }

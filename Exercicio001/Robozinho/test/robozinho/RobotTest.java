@@ -43,4 +43,9 @@ public class RobotTest {
         Robot r = new Robot();
         assertEquals("virar para direita", r.comando(new Direita()));
     }
+    @Test
+    public void testeSeRobotObedeceComandoVirarAEsquerda(){
+        Robot r = new Robot();
+        assertEquals("virar para esquerda", r.comando(new Esquerda()));
+    }
 }
