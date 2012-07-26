@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  * @author Vinicius
  */
 public class ControleRemotoTest {
-    
+
     public ControleRemotoTest() {
     }
 
@@ -23,18 +23,29 @@ public class ControleRemotoTest {
     @AfterClass
     public static void tearDownClass() throws Exception {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
 
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testSeRoboSabeAndar() {
+        ControleRemoto c = new ControleRemoto();
+        assertEquals("andar", c.andar());
+    }
+    
+    @Test
+    public void testSeRoboSabeVirarADireita() {
+        ControleRemoto c = new ControleRemoto();
+        assertEquals("virar para direita", c.virarDireita());
+    }
+    @Test
+    public void testSeRoboSabeVirarAEsquerda() {
+        ControleRemoto c = new ControleRemoto();
+        assertEquals("virar para esquerda", c.virarEsquerda());
     }
 }

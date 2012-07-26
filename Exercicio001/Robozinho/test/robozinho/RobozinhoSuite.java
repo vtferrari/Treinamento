@@ -16,7 +16,7 @@ import org.junit.runners.Suite;
  * @author Vinicius
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({robozinho.RobozinhoTest.class, robozinho.ControleRemotoTest.class})
+@Suite.SuiteClasses({robozinho.RobozinhoTest.class, robozinho.ControleRemotoTest.class, robozinho.RobotTest.class})
 public class RobozinhoSuite {
 
     @BeforeClass
