@@ -11,46 +11,54 @@ public class ConversorTest {
 
     @Test
     public void testSeORetornoEString() {
-        Conversor c = new Conversor();
-
-        Integer i = 65;
-        assertEquals(Integer.class, i.getClass());
-
-        String s = c.intParaString(i);
-        assertEquals(String.class, s.getClass());
+        ControleConversor c = new ControleConversor();
+        assertEquals("1",c.intParaString(1));
     }
     
     @Test
     public void testSeORetornoEInteger() {
-        Conversor c = new Conversor();
+        ControleConversor c = new ControleConversor();
+        assertEquals(1, c.stringParaInt("1"));
+    }
+    
+    @Test
+    public void testSeORetornoEChar() {
+        ControleConversor c = new ControleConversor();
+        assertEquals('A', c.intParaChar(65));
+    }
+    
+    @Test
+    public void testSeORetornoEInt() {
+        ControleConversor c = new ControleConversor();
+        int i = c.charParaInt('A');
+        assertEquals(65, i);
+    }
 
-        String i = "1";
-        assertEquals(String.class, i.getClass());
-
-        Integer s = c.stringParaInt(i);
-        assertEquals(Integer.class, s.getClass());
+    @Test
+    public void testSeGatoVirouLebre() {
+        ControleConversor c = new ControleConversor();
+        Gato hugo = new Gato();
+        Lebre i = c.gatoParaLebre(hugo);
+        assertEquals(Lebre.class, i.getClass());
     }
     
     @Test
     public void testSeIntVirouListaString() {
-        Conversor c = new Conversor();
+        ControleConversor c = new ControleConversor();
         List l = new ArrayList();
         l.add(1);
-        
-        List<String> s = c.mapear(l);
-        assertEquals(String.class, s.get(0).getClass());
+        Mapper<Integer,String> m = new IntParaString();
+        assertEquals("1", c.mapear(l,m).get(0));
     }
     
     @Test
-    public void testSeStringVirouListaInt() {
-        Conversor c = new Conversor();
-        List<String> l = new ArrayList();
+    public void testSeMaperFuncionaStringVirouListaInt() {
+        ControleConversor c = new ControleConversor();
+        List l = new ArrayList();
         l.add("1");
-        
-        List<String> s = c.mapear(l);
-        assertEquals(Integer.class, s.get(0).getClass());
-    }
-    
+        Mapper<String,Integer> m = new StringParaInt();
+        assertEquals(1, c.mapear(l,m).get(0));
+    }    
     
     
 }
