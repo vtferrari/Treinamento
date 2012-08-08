@@ -1,10 +1,5 @@
 package robozinho;
 
-/**
- * o controle vai receber os chamar os comandos
- *
- * @author Vinicius
- */
 class ControleRemoto {
     
     public Robot R2D2 = new Robot();

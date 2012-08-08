@@ -1,0 +1,26 @@
+adicionar com pomponentes e estados
+
+Basicamente é fazer um método que recebe uma String que pode ter os seguintes marcadores (entre outros):
+
+[b]...[/b]
+[i]...[/i]
+[u]...[/u]
+
+e convertê-la em um string que seja um html
+
+ <b>...</b>
+ <i>...</i>
+ <u>...</u>
+
+Por exemplo:
+
+ [u]um [b]exemplo [i]qualquer[/i][/b][/u]
+
+vira
+
+ <u>um <b>exemplo <i>qualquer</i></b></u>
+[19:00:19] Jonas Abreu: [u]
+[19:00:35] Jonas Abreu: __palavra__
+[19:00:56] Jonas Abreu: **palavra**
+[19:00:58] Jonas Abreu: //palavra//
+[19:01:21] Jonas Abreu: <u>palavra</u>
