@@ -1,9 +1,12 @@
 package processadordestrings;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.junit.AfterClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
+import processadordestrings.ProcessadorInstanciaException;
 
 public class ProcessadorTest {
 
@@ -40,14 +43,7 @@ public class ProcessadorTest {
         Processador concatena = new Processador();
         String resultado = (String) concatena.processar("abd + acd");
         assertEquals("abdacd", resultado);
-    }
-
-    @Test
-    public void testeSeProcessadorLeSomaStrings_AbDSimbolos_Mais_ASimboloscD() {
-        Processador concatena = new Processador();
-        String resultado = (String) concatena.processar("AbD!@#+A!@#$%D");
-        assertEquals("AbD!@#A!@#$%D", resultado);
-//        nesse momento refatorei e criei duas classes somar e multiplicar
+        //        nesse momento refatorei e criei duas classes somar e multiplicar
     }
 
     @Test
@@ -74,21 +70,21 @@ public class ProcessadorTest {
 
 
     @Test
-    public void testeSeProcessadorDivideStrings12Dividido4() {
+    public void testeSeProcessadorDivide12Dividido4() {
         Processador divide = new Processador();
         int resultado = (int) divide.processar("12 / 4");
         assertEquals(3, resultado);
     }
 
     @Test
-    public void testeSeProcessadorSubtraiStrings20Menos8() {
+    public void testeSeProcessadorSubtrai20Menos8() {
         Processador divide = new Processador();
         int resultado = (int) divide.processar("20 - 8");
         assertEquals(12, resultado);
     }
 
     @Test
-    public void testeSeProcessadorSomaStrings12Mmais5() {
+    public void testeSeProcessadorSoma12Mmais5() {
         Processador divide = new Processador();
         int resultado = (int) divide.processar("12 + 5");
         assertEquals(17, resultado);
@@ -97,10 +93,75 @@ public class ProcessadorTest {
     }
 
     @Test
-    public void testeSeProcessadorMultiplicarStrings12Vezes5() {
+    public void testeSeProcessadorMultiplicar12Vezes5() {
         Processador divide = new Processador();
         int resultado = (int) divide.processar("12 * 5");
         assertEquals(60, resultado);
 
     }
+    @Test
+    public void testeSeProcessadorMultiplicarStringsbVezes5() {
+        Processador multiplica = new Processador();
+        String resultado = (String) multiplica.processar("b * 5");
+        assertEquals("bbbbb", resultado);
+
+    }
+    @Test
+    public void testeSeProcessadorMultiplicarStrings_bnm_mais_mpo() {
+        Processador multiplica = new Processador();
+        String resultado = (String) multiplica.processar("bnm + mpo");
+        assertEquals("bnmmpo", resultado);
+
+    }
+    
+    @Test
+    public void testeSeProcessadorCriaInstanciaDeCarro() {
+        Processador instancia = new Processador();
+        Carro resultado = (Carro) instancia.processar("Carro");
+        assertEquals(Carro.class, resultado.getClass());
+
+    }
+    
+    @Test
+    public void testeSeProcessadorCriaInstanciaDeBanana() {
+        Processador instancia = new Processador();
+        Banana resultado = (Banana) instancia.processar("Banana");
+        assertEquals(Banana.class, resultado.getClass());
+
+    }
+
+    @Test
+    public void testeSeProcessadorCriaInstanciaDeCarroComAtributoVelho() {
+        Processador instancia = new Processador();
+        Carro resultado = (Carro) instancia.processar("CarroVelho");
+        assertTrue(resultado.velho);
+
+    }
+    @Test
+    public void testeSeProcessadorCriaInstanciaDeBassaComAtributoAmassada() {
+        Processador instancia = new Processador();
+        Banana resultado = (Banana) instancia.processar("BananaAmassada");
+        assertTrue(resultado.amassada);
+
+    }
+    
+    @Test(expected=ProcessadorInstanciaException.class)
+    public void testeSeProcessadorGeraExessaoNaInstanciaDeCarro() {
+        Processador instancia = new Processador();
+        Carro resultado = (Carro) instancia.processar("new Carro();");
+    }
+    
+    @Test
+    public void testeSeProcessadorDevolveApropriaString() {
+        Processador instancia = new Processador();
+        String resultado = (String) instancia.processar("abc");
+        assertEquals("abc", resultado);
+    }
+    @Test
+    public void testeSeProcessadorDevolveInt() {
+        Processador instancia = new Processador();
+        int resultado = (int) instancia.processar("123");
+        assertEquals(123, resultado);
+    }
+  
 }
