@@ -15,6 +15,9 @@ class SimpleFactoryOperacao {
         if (processa.contains("/")) {
             return new Dividir();
         }
+        if (processa.contains("^")) {
+            return new Exponenciar();
+        }
         return null;
     }
 }

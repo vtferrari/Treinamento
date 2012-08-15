@@ -5,6 +5,9 @@ class Processador {
     public Object processar(String processa) {
         SimpleFactoryOperacao operacao = new SimpleFactoryOperacao();
         Operador o = operacao.intanciaDa(processa);
+        if(processa.matches("[a-zA-Z]*(\\ \\*\\ |\\*\\ |\\ \\*)[a-zA-Z]*")){
+            throw new ProcessadorOperadorException("Não dá para fazer multiplicação entre strings");
+        }
         if (processa.matches("[a-z]*")) {
             return processa;
         }

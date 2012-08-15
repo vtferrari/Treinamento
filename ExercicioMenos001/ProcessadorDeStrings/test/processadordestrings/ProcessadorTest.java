@@ -146,17 +146,35 @@ public class ProcessadorTest {
         Carro resultado = (Carro) instancia.processar("new Carro();");
     }
     
+    @Test(expected=ProcessadorOperadorException.class)
+    public void testeSeProcessadorGeraExessaoNaMultiplicacaodeStrings() {
+        Processador instancia = new Processador();
+        String resultado = (String) instancia.processar("abc * abd");
+    }
+    
     @Test
     public void testeSeProcessadorDevolveApropriaString() {
-        Processador instancia = new Processador();
-        String resultado = (String) instancia.processar("abc");
+        Processador str = new Processador();
+        String resultado = (String) str.processar("abc");
         assertEquals("abc", resultado);
     }
     @Test
-    public void testeSeProcessadorDevolveInt() {
-        Processador instancia = new Processador();
-        int resultado = (int) instancia.processar("123");
+    public void testeSeProcessadorDevolveApropriaStringEmInt() {
+        Processador integer = new Processador();
+        int resultado = (int) integer.processar("123");
         assertEquals(123, resultado);
+    }
+    @Test
+    public void testeSeProcessadorSabeFazerPotencia2ElevadoA10() {
+        Processador exp = new Processador();
+        int resultado = (int) exp.processar("2^10");
+        assertEquals(1024, resultado);
+    }
+    @Test
+    public void testeSeProcessadorSabeFazerPotencia3ElevadoA3() {
+        Processador exp = new Processador();
+        int resultado = (int) exp.processar("3^3");
+        assertEquals(27, resultado);
     }
   
 }
