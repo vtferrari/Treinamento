@@ -1,18 +1,25 @@
 package robozinho;
 
-class ControleRemoto {
-    
-    public Robot v1n1 = new Robot();
-    
-    public String andar() {
-        return v1n1.comando(new Andar());
+import terreno.Terreno;
+
+public class ControleRemoto {
+
+    public RobotEsperto v1n1 = new RobotEsperto();
+    public Terreno marte = new Terreno(5);
+
+    public int[][] subir(int passo) {
+        return v1n1.comando(new MovimentoCima(passo), marte);
     }
-    
-    public String virarDireita() {
-        return v1n1.comando(new Direita());
+
+    public int[][] andarDireita(int passo) {
+        return v1n1.comando(new MovimentoDireita(passo), marte);
     }
-    
-    public String virarEsquerda() {
-        return v1n1.comando(new Esquerda());
+
+    public int[][] andarEsquerda(int passo) {
+        return v1n1.comando(new MovimentoEsquerda(passo), marte);
+    }
+
+    public int[][] descer(int passo) {
+        return v1n1.comando(new MovimentoBaixo(passo), marte);
     }
 }
