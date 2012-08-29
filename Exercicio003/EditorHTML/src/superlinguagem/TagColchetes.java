@@ -1,15 +1,15 @@
-package editorhtml;
+package superlinguagem;
 
-public class AbreEFechaChaves implements Transforma{
+public class TagColchetes implements BuscaTagSPL{
     
     private String seletor;
 
-    public AbreEFechaChaves(String seletor) {
+    public TagColchetes(String seletor) {
         this.seletor = seletor;
     }
     
     @Override
-    public String transformar(String html) {
+    public String converteParaHTML(String html) {
         return html.replace("["+seletor+"]", "<"+seletor+">")
                    .replace("[/"+seletor+"]", "</"+seletor+">");
     }

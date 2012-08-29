@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Mapear {
 
-
     List mapear(List l, Mapper m) {
         List mapeadList = new ArrayList();
 
