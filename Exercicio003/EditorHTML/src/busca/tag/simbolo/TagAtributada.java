@@ -1,7 +1,5 @@
 package busca.tag.simbolo;
 
-import superlinguagem.BuscaTagSPL;
-
 public class TagAtributada implements BuscaTagSPL {
 
     private String de;

@@ -1,5 +1,6 @@
 package superlinguagem;
 
+import busca.tag.simbolo.BuscaTagSPL;
 import busca.tag.simbolo.TagColchetes;
 import busca.tag.simbolo.TagAtributada;
 import java.util.ArrayList;

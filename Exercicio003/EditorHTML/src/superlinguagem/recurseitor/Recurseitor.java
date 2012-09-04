@@ -2,7 +2,7 @@
 package superlinguagem.recurseitor;
 
 import java.util.List;
-import superlinguagem.BuscaTagSPL;
+import busca.tag.simbolo.BuscaTagSPL;
 
 public class Recurseitor {
     

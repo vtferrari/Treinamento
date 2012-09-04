@@ -1,7 +1,5 @@
 package busca.tag.simbolo;
 
-import superlinguagem.BuscaTagSPL;
-
 
 public class LinkMascara implements BuscaTagSPL {
 

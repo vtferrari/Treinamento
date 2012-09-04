@@ -1,7 +1,5 @@
 package busca.tag.simbolo;
 
-import superlinguagem.BuscaTagSPL;
-
 public class TagColchetes implements BuscaTagSPL{
     
     private String seletor;

@@ -2,7 +2,7 @@ package editorhtml;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import superlinguagem.BuscaTagSPL;
+import busca.tag.simbolo.BuscaTagSPL;
 import busca.tag.simbolo.TagAtributada;
 
 public class SPLTagAtributoTest {
