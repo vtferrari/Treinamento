@@ -1,20 +1,30 @@
 package superlinguagem;
 
+import busca.tag.simbolo.TagColchetes;
+import busca.tag.simbolo.TagAtributada;
+import java.util.ArrayList;
+import java.util.List;
+import superlinguagem.recurseitor.Recurseitor;
+
 public class SuperLinguagemTag implements SuperLinguagem {
-
+ 
     @Override
-    public String paraHTML(String html) {
-
-        BuscaTagSPL bold = new TagColchetes("b");
-        BuscaTagSPL underline = new TagColchetes("u");
-        BuscaTagSPL italic = new TagColchetes("i");
-        BuscaTagSPL img = new TagAtributada("image", "img");
+    public String paraHTML(String html){
+        Recurseitor.html = html;
         
-        html = bold.converteParaHTML(html);
-        html = underline.converteParaHTML(html);
-        html = italic.converteParaHTML(html);
-        html = img.converteParaHTML(html);
-
-        return html;
+        List<BuscaTagSPL> lista = new ArrayList<>();
+        
+        lista.add(new TagAtributada("image", "img"));
+        lista.add(new TagColchetes("b"));
+        lista.add(new TagColchetes("u"));
+        lista.add(new TagColchetes("i"));
+        
+        try {
+            Recurseitor.percorreLista(lista);
+        } catch (IndexOutOfBoundsException e) {
+        }
+        
+        return Recurseitor.html;
     }
+    
 }

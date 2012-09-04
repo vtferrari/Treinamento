@@ -1,9 +1,9 @@
 package editorhtml;
 
-import superlinguagem.BuscaTagSPL;
-import superlinguagem.TagAtributada;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import superlinguagem.BuscaTagSPL;
+import busca.tag.simbolo.TagAtributada;
 
 public class SPLTagAtributoTest {
     @Test
