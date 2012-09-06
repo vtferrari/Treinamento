@@ -22,8 +22,8 @@ public class SPLSimboloTest {
     @Test
     public void testeSeOEditorAchaPadraoParaComverterEmTag__Viniciu_____Ferrari__() {
         SuperLinguagem edit = new SuperLinguagemSimbolo();
-        String transformado = edit.paraHTML("__Vinicius____Ferrari__");
-        assertEquals("<u>Vinicius</u><u>Ferrari</u>", transformado);
+        String transformado = edit.paraHTML("__Vinicius__ __Ferrari__");
+        assertEquals("<u>Vinicius</u> <u>Ferrari</u>", transformado);
     }
 
     @Test

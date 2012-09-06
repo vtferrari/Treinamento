@@ -1,6 +1,7 @@
 package busca.tag.simbolo;
 
 public class Simbolo implements BuscaTagSPL {
+
     private final String de;
     private final String para;
 
@@ -13,8 +14,9 @@ public class Simbolo implements BuscaTagSPL {
     public String converteParaHTML(String html) {
         if (html.contains(de.replace("\\", ""))) {
             return converteParaHTML(
-                    html.replaceFirst(de, "<"+para+">").replaceFirst(de, "</"+para+">"));
+                    html.replaceFirst(de, "<" + para + ">").replaceFirst(de, "</" + para + ">"));
         }
         return html;
+
     }
 }
