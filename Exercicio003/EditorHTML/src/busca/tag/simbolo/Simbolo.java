@@ -12,11 +12,6 @@ public class Simbolo implements BuscaTagSPL {
 
     @Override
     public String converteParaHTML(String html) {
-        if (html.contains(de.replace("\\", ""))) {
-            return converteParaHTML(
-                    html.replaceFirst(de, "<" + para + ">").replaceFirst(de, "</" + para + ">"));
-        }
-        return html;
-
+        return html.replaceAll( de+"([^"+de+"]+)"+de , "<"+para+">$1</"+para+">");
     }
 }
