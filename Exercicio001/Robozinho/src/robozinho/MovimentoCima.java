@@ -6,7 +6,7 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Treinamento/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java at master · vtferrari/Treinamento</title>
+        <title>Treinamento/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java at master · vtferrari/Treinamento</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
@@ -30,7 +30,7 @@
     <script defer="defer" src="https://a248.e.akamai.net/assets.github.com/assets/github-b4c07f78e6c6bbda967b3071f067d7fe7587ab18.js" type="text/javascript"></script>
     
 
-      <link rel='permalink' href='/vtferrari/Treinamento/blob/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java'>
+      <link rel='permalink' href='/vtferrari/Treinamento/blob/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java'>
     <meta property="og:title" content="Treinamento"/>
     <meta property="og:type" content="githubog:gitrepository"/>
     <meta property="og:url" content="https://github.com/vtferrari/Treinamento"/>
@@ -320,7 +320,7 @@
               <div class="commitish-item branch-commitish selector-item js-navigation-item js-navigation-target selected">
                 <span class="mini-icon mini-icon-confirm"></span>
                 <h4>
-                    <a href="/vtferrari/Treinamento/blob/master/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" class="js-navigation-open" data-name="master" rel="nofollow">master</a>
+                    <a href="/vtferrari/Treinamento/blob/master/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" class="js-navigation-open" data-name="master" rel="nofollow">master</a>
                 </h4>
               </div>
           </div>
@@ -354,18 +354,18 @@
           
 
 
-<!-- blob contrib key: blob_contributors:v21:98d4c1f9f99868f22e634fa0dad5e2a0 -->
-<!-- blob contrib frag key: views10/v8/blob_contributors:v21:98d4c1f9f99868f22e634fa0dad5e2a0 -->
+<!-- blob contrib key: blob_contributors:v21:ba064572f7936324b5f4dc1784feb1e0 -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:ba064572f7936324b5f4dc1784feb1e0 -->
 
-<!-- block_view_fragment_key: views10/v8/blob:v21:52bfd85ffa873606f1d41acf510b6563 -->
+<!-- block_view_fragment_key: views10/v8/blob:v21:4cc68c6a1e07c1a54dc611922fdf6b34 -->
 
   <div id="slider">
 
-    <div class="breadcrumb" data-path="Exercicio001/Robozinho/src/robozinho/ControleRemoto.java/">
-      <b itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37" class="js-rewrite-sha" itemprop="url"><span itemprop="title">Treinamento</span></a></b> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001" class="js-rewrite-sha" itemscope="url"><span itemprop="title">Exercicio001</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho" class="js-rewrite-sha" itemscope="url"><span itemprop="title">Robozinho</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src" class="js-rewrite-sha" itemscope="url"><span itemprop="title">src</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho" class="js-rewrite-sha" itemscope="url"><span itemprop="title">robozinho</span></a></span> / <strong class="final-path">ControleRemoto.java</strong> <span class="js-clippy mini-icon mini-icon-clippy " data-clipboard-text="Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" data-copied-hint="copied!" data-copy-hint="copy to clipboard"></span>
+    <div class="breadcrumb" data-path="Exercicio001/Robozinho/src/robozinho/MovimentoCima.java/">
+      <b itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37" class="js-rewrite-sha" itemprop="url"><span itemprop="title">Treinamento</span></a></b> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001" class="js-rewrite-sha" itemscope="url"><span itemprop="title">Exercicio001</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho" class="js-rewrite-sha" itemscope="url"><span itemprop="title">Robozinho</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src" class="js-rewrite-sha" itemscope="url"><span itemprop="title">src</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vtferrari/Treinamento/tree/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho" class="js-rewrite-sha" itemscope="url"><span itemprop="title">robozinho</span></a></span> / <strong class="final-path">MovimentoCima.java</strong> <span class="js-clippy mini-icon mini-icon-clippy " data-clipboard-text="Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" data-copied-hint="copied!" data-copy-hint="copy to clipboard"></span>
     </div>
 
-      <div class="commit file-history-tease js-blob-contributors-loader" data-request-url="/vtferrari/Treinamento/contributors/master/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" data-path="Exercicio001/Robozinho/src/robozinho/ControleRemoto.java/">
+      <div class="commit file-history-tease js-blob-contributors-loader" data-request-url="/vtferrari/Treinamento/contributors/master/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" data-path="Exercicio001/Robozinho/src/robozinho/MovimentoCima.java/">
         Fetching contributors…
 
         <div class="participation">
@@ -374,7 +374,7 @@
       </div>
 
     <div class="frames">
-      <div class="frame frame-center" data-path="Exercicio001/Robozinho/src/robozinho/ControleRemoto.java/" data-permalink-url="/vtferrari/Treinamento/blob/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" data-title="Treinamento/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java at master · vtferrari/Treinamento · GitHub" data-type="blob">
+      <div class="frame frame-center" data-path="Exercicio001/Robozinho/src/robozinho/MovimentoCima.java/" data-permalink-url="/vtferrari/Treinamento/blob/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" data-title="Treinamento/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java at master · vtferrari/Treinamento · GitHub" data-type="blob">
 
         <div id="files" class="bubble">
           <div class="file">
@@ -382,21 +382,21 @@
               <div class="info">
                 <span class="icon"><b class="mini-icon mini-icon-text-file"></b></span>
                 <span class="mode" title="File Mode">file</span>
-                  <span>26 lines (18 sloc)</span>
-                <span>0.624 kb</span>
+                  <span>28 lines (23 sloc)</span>
+                <span>0.692 kb</span>
               </div>
               <ul class="button-group actions">
                   <li>
-                    <a class="grouped-button file-edit-link minibutton bigger lighter js-rewrite-sha" href="/vtferrari/Treinamento/edit/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" data-method="post" rel="nofollow" data-hotkey="e">Edit</a>
+                    <a class="grouped-button file-edit-link minibutton bigger lighter js-rewrite-sha" href="/vtferrari/Treinamento/edit/66d598438bab88caa3a74c92ee02cbd715953e37/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" data-method="post" rel="nofollow" data-hotkey="e">Edit</a>
                   </li>
                 <li>
-                  <a href="/vtferrari/Treinamento/raw/master/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" class="minibutton grouped-button bigger lighter" id="raw-url">Raw</a>
+                  <a href="/vtferrari/Treinamento/raw/master/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" class="minibutton grouped-button bigger lighter" id="raw-url">Raw</a>
                 </li>
                   <li>
-                    <a href="/vtferrari/Treinamento/blame/master/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" class="minibutton grouped-button bigger lighter">Blame</a>
+                    <a href="/vtferrari/Treinamento/blame/master/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" class="minibutton grouped-button bigger lighter">Blame</a>
                   </li>
                 <li>
-                  <a href="/vtferrari/Treinamento/commits/master/Exercicio001/Robozinho/src/robozinho/ControleRemoto.java" class="minibutton grouped-button bigger lighter" rel="nofollow">History</a>
+                  <a href="/vtferrari/Treinamento/commits/master/Exercicio001/Robozinho/src/robozinho/MovimentoCima.java" class="minibutton grouped-button bigger lighter" rel="nofollow">History</a>
                 </li>
               </ul>
             </div>
@@ -429,10 +429,12 @@
 <span id="L23" rel="#L23">23</span>
 <span id="L24" rel="#L24">24</span>
 <span id="L25" rel="#L25">25</span>
+<span id="L26" rel="#L26">26</span>
+<span id="L27" rel="#L27">27</span>
 </pre>
           </td>
           <td width="100%">
-                <div class="highlight"><pre><div class='line' id='LC1'><span class="kn">package</span> <span class="n">robozinho</span><span class="o">;</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'><span class="kn">import</span> <span class="nn">terreno.Terreno</span><span class="o">;</span></div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ControleRemoto</span> <span class="o">{</span></div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="n">RobotEsperto</span> <span class="n">v1n1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RobotEsperto</span><span class="o">();</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="n">Terreno</span> <span class="n">marte</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Terreno</span><span class="o">(</span><span class="mi">5</span><span class="o">);</span></div><div class='line' id='LC9'><br/></div><div class='line' id='LC10'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">subir</span><span class="o">(</span><span class="kt">int</span> <span class="n">passo</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC11'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">v1n1</span><span class="o">.</span><span class="na">comando</span><span class="o">(</span><span class="k">new</span> <span class="n">MovimentoCima</span><span class="o">(</span><span class="n">passo</span><span class="o">),</span> <span class="n">marte</span><span class="o">);</span></div><div class='line' id='LC12'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC13'><br/></div><div class='line' id='LC14'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">andarDireita</span><span class="o">(</span><span class="kt">int</span> <span class="n">passo</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC15'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">v1n1</span><span class="o">.</span><span class="na">comando</span><span class="o">(</span><span class="k">new</span> <span class="n">MovimentoDireita</span><span class="o">(</span><span class="n">passo</span><span class="o">),</span> <span class="n">marte</span><span class="o">);</span></div><div class='line' id='LC16'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC17'><br/></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">andarEsquerda</span><span class="o">(</span><span class="kt">int</span> <span class="n">passo</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">v1n1</span><span class="o">.</span><span class="na">comando</span><span class="o">(</span><span class="k">new</span> <span class="n">MovimentoEsquerda</span><span class="o">(</span><span class="n">passo</span><span class="o">),</span> <span class="n">marte</span><span class="o">);</span></div><div class='line' id='LC20'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC21'><br/></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">descer</span><span class="o">(</span><span class="kt">int</span> <span class="n">passo</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">v1n1</span><span class="o">.</span><span class="na">comando</span><span class="o">(</span><span class="k">new</span> <span class="n">MovimentoBaixo</span><span class="o">(</span><span class="n">passo</span><span class="o">),</span> <span class="n">marte</span><span class="o">);</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC25'><span class="o">}</span></div></pre></div>
+                <div class="highlight"><pre><div class='line' id='LC1'><span class="kn">package</span> <span class="n">robozinho</span><span class="o">;</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MovimentoCima</span> <span class="kd">implements</span> <span class="n">RobotEspertoMovimento</span> <span class="o">{</span></div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">private</span> <span class="kt">int</span> <span class="n">passos</span><span class="o">;</span></div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="nf">MovimentoCima</span><span class="o">(</span><span class="kt">int</span> <span class="n">passos</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">this</span><span class="o">.</span><span class="na">passos</span> <span class="o">=</span> <span class="n">passos</span><span class="o">;</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC10'><br/></div><div class='line' id='LC11'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nd">@Override</span></div><div class='line' id='LC12'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kd">public</span> <span class="kt">int</span><span class="o">[][]</span> <span class="nf">realizaComando</span><span class="o">(</span><span class="kt">int</span><span class="o">[][]</span> <span class="n">terreno</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC13'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">terreno</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span></div><div class='line' id='LC14'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">terreno</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span></div><div class='line' id='LC15'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">if</span> <span class="o">(</span><span class="n">terreno</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC16'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">if</span> <span class="o">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span></div><div class='line' id='LC17'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">terreno</span><span class="o">;</span></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">terreno</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span></div><div class='line' id='LC20'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">terreno</span><span class="o">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">passos</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span></div><div class='line' id='LC21'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">terreno</span><span class="o">;</span></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC25'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">terreno</span><span class="o">;</span></div><div class='line' id='LC26'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">}</span></div><div class='line' id='LC27'><span class="o">}</span></div></pre></div>
           </td>
         </tr>
       </table>
@@ -518,7 +520,7 @@
           <li><a href="https://github.com/security">Security</a></li>
       </ul>
 
-      <p>&copy; 2012 <span title="0.12079s from fe13.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
+      <p>&copy; 2012 <span title="0.10870s from fe13.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
     </div><!-- /#legal or /#legal_ie-->
 
   </div><!-- /.site -->
@@ -922,7 +924,7 @@ I think you should use an
 
     
     
-    <span id='server_response_time' data-time='0.12320' data-host='fe13'></span>
+    <span id='server_response_time' data-time='0.11169' data-host='fe13'></span>
     
   </body>
 </html>
