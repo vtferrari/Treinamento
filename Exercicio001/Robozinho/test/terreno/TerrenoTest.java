@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   
 
 
@@ -942,3 +943,45 @@ I think you should use an
   </body>
 </html>
 
+=======
+package terreno;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+import robozinho.RobotEsperto;
+
+public class TerrenoTest {
+
+    @Test
+    public void testeCriaTerrenoDoisPorDois() {
+        int[][] terreno={{0,0},
+                         {0,0}};
+        assertEquals(terreno,new Terreno(2).getTerreno());
+    }
+    @Test
+    public void testeCriaTerrenoQuatroPorQuatro() {
+        int[][] terreno={{0,0,0,0},
+                         {0,0,0,0},
+                         {0,0,0,0},
+                         {0,0,0,0}};
+        assertEquals(terreno,new Terreno(4).getTerreno());
+    }
+    @Test
+    public void testeCriaTerreno10Por10() {
+        int[][] terreno={
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0},
+                         {0,0,0,0,0,0,0,0,0,0}
+        };
+        assertEquals(terreno,new Terreno(10).getTerreno());
+    }
+
+}
+>>>>>>> 66d598438bab88caa3a74c92ee02cbd715953e37

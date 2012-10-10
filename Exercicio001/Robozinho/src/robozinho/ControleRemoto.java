@@ -14,6 +14,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-144.png" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png" />
 
+<<<<<<< HEAD
     
     
     <link rel="icon" type="image/x-icon" href="/favicon.png" />
@@ -873,6 +874,30 @@ function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
+=======
+import terreno.Terreno;
+
+public class ControleRemoto {
+
+    public RobotEsperto v1n1 = new RobotEsperto();
+    public Terreno marte = new Terreno(5);
+
+    public int[][] subir(int passo) {
+        return v1n1.comando(new MovimentoCima(passo), marte);
+    }
+
+    public int[][] andarDireita(int passo) {
+        return v1n1.comando(new MovimentoDireita(passo), marte);
+    }
+
+    public int[][] andarEsquerda(int passo) {
+        return v1n1.comando(new MovimentoEsquerda(passo), marte);
+    }
+
+    public int[][] descer(int passo) {
+        return v1n1.comando(new MovimentoBaixo(passo), marte);
+    }
+>>>>>>> 66d598438bab88caa3a74c92ee02cbd715953e37
 }
 ```</pre>
     </div>
