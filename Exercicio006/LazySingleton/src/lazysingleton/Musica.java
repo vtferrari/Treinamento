@@ -1,0 +1,6 @@
+
+package lazysingleton;
+
+class Musica {
+
+}
