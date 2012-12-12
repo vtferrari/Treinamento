@@ -3,7 +3,7 @@ package lazysingleton;
 import beam.Filme;
 
 public abstract class LazySingleton {
-
+    
     private static volatile Filme instancia;
     private static final Object o = new Object();
 
