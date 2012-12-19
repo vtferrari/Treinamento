@@ -5,38 +5,45 @@ import java.util.Date;
 
 public class BuildeFilme {
 
-    long id;
-    private String titulo;
-    private String genero;
-    private String classificacao;
-    private Date lancamento;
+    private final long id;
+    private final String titulo;
+    private final String genero;
+    private final String classificacao;
+    private final Date lancamento;
+
+    public BuildeFilme() {
+        this(0, null, null, null, null);
+    }
+
+    public BuildeFilme(long id, String titulo, String genero, String classificacao, Date lancamento) {
+        this.id = id;
+        this.titulo = titulo;
+        this.genero = genero;
+        this.classificacao = classificacao;
+        this.lancamento = lancamento;
+    }
 
     public BuildeFilme withId(long id) {
-        this.id = id;
-        return this;
+        return new BuildeFilme( id,  titulo, genero, classificacao, lancamento);
     }
 
     public BuildeFilme withGenero(String genero) {
-        this.genero = genero;
-        return this;
+        return new BuildeFilme( id,  titulo, genero, classificacao, lancamento);
     }
 
     public BuildeFilme withTitulo(String titulo) {
-        this.titulo = titulo;
-        return this;
+        return new BuildeFilme( id,  titulo, genero, classificacao, lancamento);
     }
 
     public BuildeFilme withClassificacao(String classificacao) {
-        this.classificacao = classificacao;
-        return this;
+        return new BuildeFilme( id,  titulo, genero, classificacao, lancamento);
     }
 
     public BuildeFilme withLancamento(Date lancamento) {
-        this.lancamento = lancamento;
-        return this;
+        return new BuildeFilme( id,  titulo, genero, classificacao, lancamento);
     }
 
     public Filme buildeFilme() {
-        return new Filme(this.id, this.titulo, this.genero, this.classificacao, this.lancamento);
+        return new Filme(id, titulo, genero, classificacao, lancamento);
     }
 }
