@@ -19,7 +19,6 @@ public class EzURL {
             buffer.append(linha);
         }
         br.close();
-        System.out.println(buffer.toString());
         return (buffer.toString());
 
     }
