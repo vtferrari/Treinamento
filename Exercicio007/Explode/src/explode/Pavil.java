@@ -1,12 +1,5 @@
 package explode;
 
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 public class Pavil extends Bomba implements Runnable {
 
     @Override

@@ -18,6 +18,4 @@ public abstract class Bomba implements Runnable {
         cartucho.add(new AtomicInteger(contador.incrementAndGet()));
     }
 
-    @Override
-    public abstract void run();
 }
