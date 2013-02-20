@@ -7,11 +7,19 @@ import java.util.Random;
 
 public class Globo implements Runnable {
 
-    public static final List<Integer> numeros = new ArrayList<>();
-    public volatile List<Integer> aux;
+    private static final List<Integer> numeros = new ArrayList<>();
+    private volatile List<Integer> aux;
 
     public Globo(int de, int ate) {
         organizarParte(de, ate);
+    }
+
+    public static int size() {
+        return numeros.size();
+    }
+
+    public List getSub() {
+        return aux;
     }
 
     private void organizarParte(int de, int ate) {
