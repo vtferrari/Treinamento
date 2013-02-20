@@ -10,7 +10,11 @@ public class Globo implements Runnable {
     public static final List<Integer> numeros = new ArrayList<>();
     public volatile List<Integer> aux;
 
-    public void organixarParte(int de, int ate) {
+    public Globo(int de, int ate) {
+        organizarParte(de, ate);
+    }
+
+    private void organizarParte(int de, int ate) {
         aux = numeros.subList(de, ate);
     }
 

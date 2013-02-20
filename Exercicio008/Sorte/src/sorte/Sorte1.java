@@ -10,11 +10,8 @@ public class Sorte1 {
         for (int i = 0; i <= 10000000; i++) {
             Globo.sortear();
         }
-        Globo t1 = new Globo();
-
         int t = Globo.numeros.size() - 1;
-
-        t1.organixarParte(0, t);
+        Globo t1 = new Globo(0, t);
 
         ExecutorService executa = Executors.newFixedThreadPool(4);
         executa.execute(t1);
