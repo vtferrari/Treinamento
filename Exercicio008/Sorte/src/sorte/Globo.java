@@ -7,21 +7,24 @@ import java.util.Random;
 
 public class Globo implements Runnable {
 
-    private static final List numeros = Collections.synchronizedList(new ArrayList<>());
+    public static final List<Integer> numeros = new ArrayList<>();
+    public volatile List<Integer> aux;
+
+    public void organixarParte(int de, int ate) {
+        aux = numeros.subList(de, ate);
+    }
 
     public static void sortear() {
         Random r = new Random();
-        numeros.add(r.nextLong());
+        numeros.add(r.nextInt());
     }
 
-    public synchronized void organizar() {
-        Collections.sort(numeros);
+    public void organizar() {
+        Collections.sort(aux);
     }
 
     @Override
     public void run() {
-        synchronized (numeros) {
-            organizar();
-        }
+        organizar();
     }
 }
